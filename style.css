@@ -6,6 +6,7 @@
 }
 
 html, body {
+    text-align: center;
     background-color: wheat;
     height: 100%;
     width: 100%;
@@ -25,7 +26,17 @@ html, body {
 
 .text{
     text-align: center;
-    padding-top: 20px;
+    /* font-size: medium; */
+    margin: 10px;
+}
+
+.Developer {
+    position: absolute;
+    bottom: 10px;
+    align-items: center;
+    color: rgb(115, 82, 21);
+    font-weight: bold;
+    padding: 0 20px;
 }
 
 /* #center {
